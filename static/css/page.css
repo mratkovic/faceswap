@@ -8,4 +8,8 @@ body {
 
 
 .modal-dialog {width:600px;}
-.thumbnail {margin-bottom:6px;}
+.thumbnail{
+    overflow: auto;
+    margin-bottom:6px;
+}
+
