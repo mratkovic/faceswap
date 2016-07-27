@@ -13,7 +13,7 @@ Can be run as a simple script from command line or as web app.
 #####
 See `config.py` for host and port settings.
 ______
-### Steps
+### Method
 The process breaks down into four steps:
 * Detecting facial landmarks.
 * Rotating, scaling, and translating the second image to fit over the first.
