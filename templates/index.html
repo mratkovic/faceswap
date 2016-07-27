@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="container">
+      <form action="/" method=POST enctype=multipart/form-data>
+      <div class="row">
+        <div class="col-md-6">
+            <h1> First Face </h1>
+            <label class="control-label">Select File</label>
+            <input id="file1" name="file1" type="file" class="file" data-show-upload="false"
+             data-allowed-file-extensions='["jpg", "png", "jpeg"]' required>
+        </div>
+            <div class="col-md-6">
+            <h1> Second Face </h1>
+            <label class="control-label">Select File</label>
+            <input id="file2" name="file2" type="file" class="file" data-show-upload="false"
+              data-allowed-file-extensions='["jpg", "png", "jpeg"]' required>
+
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <input type="submit" button id="button" name="button"
+                     class="btn btn-lg btn-primary" value="Swap faces">
+              </input>
+          </div>
+
+
+      </div>
+      </form>
+  </div>
+{% endblock content %}
