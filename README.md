@@ -6,7 +6,7 @@ Can be run as a simple script from command line or as web app.
 
 ## Instructions
 #### CLI demo
-    ./cli_faceswap.py <head_image> <face_image> [<output_path>]
+    ./cli_faceswap.py <head_image> <face_image> [-o <output_path>]] [--show] 
     ./cli_faceswap.py --help
 #### FLASK
     ./app.py
