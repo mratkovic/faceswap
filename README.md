@@ -6,10 +6,10 @@ Can be run as a simple script from command line or as web app.
 
 ## Instructions
 #### CLI demo
-    ./cli_faceswap.py <head_image> <face_image> [-o <output_path>]] [--show] 
-    ./cli_faceswap.py --help
+    python cli_faceswap.py <head_image> <face_image> [-o <output_path>]] [--show] 
+    python cli_faceswap.py --help
 #### FLASK
-    ./app.py
+    python app.py
 #####
 See `config.py` for host and port settings.
 ______
